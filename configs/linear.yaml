@@ -1,0 +1,3 @@
+# Linear regression (docs/PLAN.md section 5). Shared settings: base.yaml.
+model: linear
+params: {}

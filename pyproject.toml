@@ -1,0 +1,34 @@
+[project]
+name = "esa-lstm"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "astral>=3.2",
+    "bottleneck>=1.6.0",
+    "cdsapi>=0.7",
+    "dask>=2026.8.0",
+    "ipykernel>=7.4.0",
+    "joblib>=1.6.0",
+    "jupyterlab>=4.6.4",
+    "matplotlib>=3.11.2",
+    "netcdf4>=1.7.4",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "pyarrow>=26.0.0",
+    "pyyaml>=6.0.3",
+    "requests>=2.32",
+    "rioxarray>=0.23.0",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "xarray>=2026.7.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.9",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

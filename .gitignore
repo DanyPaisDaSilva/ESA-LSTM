@@ -221,3 +221,6 @@ __marimo__/
 
 # my custom stuff
 .devcontainer/
+.idea/
+data/
+outputs/

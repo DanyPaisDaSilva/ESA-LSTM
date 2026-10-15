@@ -1,0 +1,3 @@
+# Settings every lag-model run shares (docs/PLAN.md). Paths are relative to the project root.
+data: data/processed/indices.parquet  # input table (docs/PLAN.md section 3)
+output_dir: outputs                   # each run writes to <output_dir>/<model>/
